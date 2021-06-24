@@ -28,7 +28,7 @@ def sockMerchant(n, ar):
 
 if __name__ == '__main__':
     n = 9
-    ar = [10, 20, 20, 10, 10, 30, 50, 10, 20]
+    ar = ["U", "D", "D", "D", "U", "D", "U", "U"]
 
     result = sockMerchant(n, ar)
     print(str(result) + '\n')
