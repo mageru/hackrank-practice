@@ -27,8 +27,9 @@ def sockMerchant(n, ar):
     return pair_count
 
 if __name__ == '__main__':
-    n = 9
-    ar = ["U", "D", "D", "D", "U", "D", "U", "U"]
+    n = 7
+    #ar = ["U", "D", "D", "D", "U", "D", "U", "U"]
+    ar = [1, 2, 1, 2, 1, 3, 2]
 
     result = sockMerchant(n, ar)
     print(str(result) + '\n')
